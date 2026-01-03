@@ -1,0 +1,14 @@
+Run FastMCP with explicit PATH passthrough
+
+From inside your project folde:
+	$env:PATH = "C:\Program Files\nodejs\;" + $env:PATH
+		this is for npx adding into path
+	uv run fastmcp dev main.py	
+		this will add mpc dev localhost:
+
+	uv run fastmcp run  main.py
+		we will run server and connect with clients
+	uv run fastmcp install claude-desktop main.py 
+		add this server to claude desktop
+		change uv path to config file:"command": "C:\\Users\\PC\\.local\\bin\\uv.exe"
+
