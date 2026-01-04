@@ -1,0 +1,29 @@
+{
+    "demo_server-math_tools": {
+      "command": "C:\\Users\\PC\\.local\\bin\\uv.exe",
+      "args": [
+        "run",
+        "--with",
+        "fastmcp",
+        "fastmcp",
+        "run",
+        "D:\\FastMCP-Server\\main_01.py"
+      ],
+      "env": {},
+      "transport": "stdio",
+      "type": null,
+      "cwd": null,
+      "timeout": null,
+      "description": null,
+      "icon": null,
+      "authentication": null
+    },
+    "weather": {
+            "command": "uvx",
+            "args": ["--from", "git+https://github.com/adhikasp/mcp-weather.git", "mcp-weather"],
+            "env": {
+                "ACCUWEATHER_API_KEY": "API"
+            }
+        }
+    }
+  
